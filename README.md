@@ -1,4 +1,4 @@
-This is my Note App build on React using TypeScript
+    This is my Note App build on React using TypeScript
 
 Functionality:
     - Adding notes with limit number of characters
