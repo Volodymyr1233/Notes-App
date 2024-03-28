@@ -1,0 +1,82 @@
+.addNoteForm {
+    background-color: rgb(0, 204, 204);
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: -15px;
+}
+
+.addNoteInput {
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    margin: 20px;
+    font-size: 15px;
+    width: 88%;
+}
+
+.addNoteInput:focus {
+    outline: none;
+}
+
+.addContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+
+.headingLengthCount {
+    margin-left: 5%;
+}
+
+.saveNote {
+    margin-right: 9%;
+    margin-top: 3.7%;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    padding: 8px, 8px, 10px, 8px;
+    height: 30px;
+    width: 60px;
+}
+
+.loading {
+    position: absolute;
+    left: 73%;
+    bottom: 17%;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .headingLengthCount {
+        font-size: 15px;
+        margin-bottom: 15%;
+    }
+
+    .saveNote {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .addNoteForm {
+        width: 100%;
+    }
+
+    .addNoteForm {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .headingLengthCount {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+
+    .saveNote {
+        margin-top: 3%;
+    }
+}
