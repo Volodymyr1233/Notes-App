@@ -1,16 +1,28 @@
-# This is my Note App build on React using TypeScript 
+# App for making Notes
 
+## About
+Notes App created using React and TypeScript. App allows you to make Notes and search specific one
 
+![Picture3](https://github.com/user-attachments/assets/5b949a13-3aa9-41d2-ba90-d50f46d1d144)
 
-🧑‍💻Functionality:
+--------------------------------------
 
-    ✅ Adding notes with limit number of characters
-    ✅ App saves note  when user stops typing without
-      the need to click submit button
-    ✅ Search bar with ability to search note by title
-    ✅ Button that changes color theme
-    ✅ Local storage is used and notes don't disapper
-      when user refresh the page
-    ✅ Page is responsive for all device types 
+![Picture5](https://github.com/user-attachments/assets/e4568fcd-323a-4f56-80b2-d3a7ce82e485)
 
-Hope you enjoy my project🙌
+## Setup
+
+To run Notes App locally:
+1. Clone the repository:
+   
+    ```
+   git clone https://github.com/Volodymyr1233/Notes-App.git
+    ```
+2. Install dependencies:
+    ```
+    npm install
+    ```
+3. Run project:
+    ```
+    npm start
+    ```
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
